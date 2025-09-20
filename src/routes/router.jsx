@@ -2,6 +2,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from '../App'
 import Home from '../Pages/Home'
+import Contact from '../Pages/Contact'
+import About from '../Pages/About'
 
 const approuter = createBrowserRouter([
     {
@@ -14,11 +16,11 @@ const approuter = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <Home />
+                element: <About />
             },
             {
                 path: '/contact',
-                element: <Home />
+                element: <Contact />
             }
         ]
     }
