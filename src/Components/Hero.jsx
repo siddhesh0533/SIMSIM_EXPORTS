@@ -3,20 +3,20 @@ import { video } from '../assets/assets'
 
 const Hero = () => {
     return (
-        <div className='h-screen w-full flex flex-col pt-20'>
+        <div className='h-[calc(100vh-15vh)] w-full flex flex-col'>
             {/* Section Container */}
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-8 md:px-20 py-10 bg-white">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-4 md:px-20 py-10 bg-white">
                 {/* Left Side - Heading */}
                 <div className="md:w-2/3">
-                    <h1 className="text-4xl md:text-6xl font-bold text-black leading-tight">
+                    <h1 className="text-4xl md:text-6xl font-bold text-[#0c1f30] leading-tight">
                         Connecting Businesses<br />Across Continents
                     </h1>
                 </div>
 
                 {/* Right Side - Tagline */}
                 <div className="md:w-1/3 mt-6 md:mt-0 text-right">
-                    <p className="text-lg md:text-xl font-semibold text-gray-800">
-                        Reliable logistics solutions<br />tailored for your needs
+                    <p className="text-lg md:text-xl font-semibold text-[#0c1f30]">
+                        Connecting Fashion &<br /> Flavors Across Borders
                     </p>
                 </div>
             </div>
