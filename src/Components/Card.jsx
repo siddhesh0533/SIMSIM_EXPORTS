@@ -8,7 +8,7 @@ const Card = ({ image, title }) => {
             <img src={image} alt="offering" className="w-full h-full object-cover" />
 
             <div className="absolute inset-0 bg-black opacity-50 flex items-center justify-center">
-                <h2 className="text-white text-4xl font-semibold">{title}</h2>
+                <h2 className="text-white text-3xl font-semibold">{title}</h2>
             </div>
 
         </div>

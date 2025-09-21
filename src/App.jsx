@@ -7,10 +7,10 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="flex-1">
+      {/* <div className="flex-1"> */}
         <Outlet />
-      </div>
-      {/* <Footer/> */}
+      {/* </div> */}
+      <Footer/>
     </div>
   )
 }
